@@ -2,26 +2,32 @@
 Compiler project for CPL language using Flex and Bison, including lexical analysis, syntax analysis, semantic checks, and MIPS code generation.
 
 **Students**
+
 Natali Shamunov - ID: 207893496 | mail: Natalizigzag1@gmail.com 
 Or Tal Adani - ID: 314669615| mail: Ortalia2108@gmail.com 
 
 **Course**
+
 Compilation and Translation
 **Lecturer**
+
 Dr. Rina Tzviael Grishin
 
-**Project Description**
+**Project Description
+
 This project implements a compiler for the CPL (Compiler Project Language).
 The compiler performs lexical, syntactic, and semantic analysis, and generates MIPS assembly code for valid input programs.
 The symbol table is implemented as a hash table with chaining, allowing efficient insertion and lookup of identifiers.
 
 **Compilation Instructions**
+
 Compile the project using the following commands:
 bison -d parser.y
 flex scanner.l
 gcc lex.yy.c parser.tab.c symtab.c cpm.c -o cpm.exe
 
 **Running the Compiler**
+
 To run the compiler:
 ./cpm.exe <file_name>.cpl or cpm.exe <file_name>.cpl
 Example:
