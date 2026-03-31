@@ -24,17 +24,24 @@ The symbol table is implemented as a hash table with chaining, allowing efficien
 **Compilation Instructions**
 
 Compile the project using the following commands:
+
 bison -d parser.y
+
 flex scanner.l
+
 gcc lex.yy.c parser.tab.c symtab.c cpm.c -o cpm.exe
 
 **Running the Compiler**
 
 To run the compiler:
+
 ./cpm.exe <file_name>.cpl or cpm.exe <file_name>.cpl
 Example:
+
 cpm.exe test_if.cpl
+
 Command format:
+
 cpm.exe <file_name>.cpl
 
 **Input**
