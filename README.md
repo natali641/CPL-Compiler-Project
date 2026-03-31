@@ -10,11 +10,12 @@ Or Tal Adani - ID: 314669615| mail: Ortalia2108@gmail.com
 **Course**
 
 Compilation and Translation
+
 **Lecturer**
 
 Dr. Rina Tzviael Grishin
 
-**Project Description
+**Project Description**
 
 This project implements a compiler for the CPL (Compiler Project Language).
 The compiler performs lexical, syntactic, and semantic analysis, and generates MIPS assembly code for valid input programs.
