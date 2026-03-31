@@ -86,10 +86,12 @@ Link to video demonstrating:
 -	Flex & Bison execution
 -	Compilation process
 -	Running the compiler on test files
+-	
 [Add YouTube link here]
 
 **Project Files Link**
 Link to full project files (GitHub):
+
 [Add link here]
 
 
