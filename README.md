@@ -86,8 +86,8 @@ Link to video demonstrating:
 -	Flex & Bison execution
 -	Compilation process
 -	Running the compiler on test files
--	
-[Add YouTube link here]
+  
+https://youtu.be/bjeiO30Ql0M
 
 **Project Files Link**
 Link to full project files (GitHub):
